@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Marsbuilder login</title>
+        <link type="text/css" rel="stylesheet" href="./css/style.css">
+        <script src="./js/login.js"></script>
+    </head>
+    <body>
+        <header>MARSBUILDER</header>
+        <div id="content">
+            <div class="panel" id="register">
+                <div class="data-panel">
+                    <label>Email</label>
+                    <input id="r-email" type="email">
+                    <label>Nickname</label>
+                    <input id="r-nickname" type="text">
+                    <label>Password</label>
+                    <input id="r-password" type="password">
+                    <label>Conferma password</label>
+                    <input id="r-cpassword" type="password">
+                </div>
+                <div class="button-bar">
+                    <div class="button" onclick="register();">Registrati</div>
+                    <div class="button" onclick="goToGoogle();">Annulla</div>
+                </div>
+            </div>
+            
+            <div class="panel" id="login">
+                <div class="data-panel">
+                    <label>Email</label>
+                    <input id="l-email" type="email">
+                    <label>Password</label>
+                    <input id="l-password" type="password">
+                </div>
+                <div class="button-bar">
+                    <div class="button" onclick="login()">Login</div>
+                    <div class="button" onclick="clear_fields();">Annulla</div>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
